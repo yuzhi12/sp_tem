@@ -1,0 +1,13 @@
+server:
+  port: 8881
+
+
+#MYSQL
+spring:
+  datasource:
+    #设置统一编码，防止中文乱码
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+
